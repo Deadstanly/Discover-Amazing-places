@@ -2,7 +2,6 @@
 <html lang="auto">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -22,19 +21,28 @@
                 <nav class="header-nav">
                     <ul class="header-nav-items">
                         <li class="header-nav-item">
-                            <a href="#" class="header-nav-link">Articles</a>
+                            <a href="#articles" class="header-nav-link">Articles</a>
                         </li>
                         <li class="header-nav-item">
-                            <a href="#" class="header-nav-link">Locations</a>
+                            <a href="#locations" class="header-nav-link">Locations</a>
                         </li>
                         <li class="header-nav-item">
-                            <a href="#" class="header-nav-link">Videos</a>
+                            <a href="#videos" class="header-nav-link">Videos</a>
                         </li>
                         <li class="header-nav-item">
-                            <a href="#" class="header-nav-link">Sign in</a>
+                            <a href="#gallery" class="header-nav-link">Gallery</a>
                         </li>
                     </ul>
+                    <div class="header-nav-close-btn">
+                        <span class="header-nav-close-line"></span>
+                        <span class="header-nav-close-line"></span>
+                    </div>
                 </nav>
+                <div class="header-nav-burger burger">
+                    <span class="burger-line burger-line-top"></span>
+                    <span class="burger-line burger-line-center"></span>
+                    <span class="burger-line burger-line-bottom"></span>
+                </div>
             </div>
         </div>
     </header>
@@ -86,7 +94,7 @@
         </div>
     </section>
 
-    <section class="gallery">
+    <section class="gallery" id="gallery">
         <div class="container-lg">
            <div class="gallery-title-content">
                 <h2 class="gallery-title">Get inspired for your next trip</h2>
@@ -117,7 +125,7 @@
         </div>
     </section>
 
-    <section class="tours">
+    <section class="tours" id="articles">
         <div class="container-lg">
             <div class="tours-container tour">
                 <div class="tour-img-block">
@@ -135,14 +143,14 @@
                     <p class="tour-subtitle">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door.</p>
                     <a class="tour-link" href="#">VIEW NEIGHBORHOOD</a>
                 </div>
-                <div class="tour-img-block">
+                <div class="tour-img-block tour-img-last">
                     <img class="tour-img" src="img/tour-img2.png" alt="Kyoto’s Arashiyama">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="top-places">
+    <section class="top-places" id="location">
         <div class="container-lg">
             <h2 class="gallery-title top-places-title">Today top places to visit</h2>
             <div class="top-cards-container">
@@ -246,7 +254,7 @@
         </div>
     </section>
 
-    <section class="videos">
+    <section class="videos" id="videos">
         <div class="videos-container">
             <div class="videos-block"></div>
             <iframe class="video" src="https://www.youtube.com/embed/n3Dru5y3ROc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
